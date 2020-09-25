@@ -1,0 +1,55 @@
+# Site
+repository: antcs/antcs.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Anton Carlos Straeter
+title: Cloud Software Engineer
+email: antonstraeter@gmail.com
+website: www.https://antcs.github.io/
+
+darkmode: true
+
+# Social links
+github_username:  antcs
+linkedin_username: anton-carlos-s-07b293136
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hello world, my name's Anton and I need to write some text here.
+
+  I get my hands dirty on: 
+  <mark>Kubernetes</mark> <mark>GoLang</mark> <mark>K8s Operators</mark> <mark>SAP HANA Cloud</mark> <mark>Vault</mark> <mark>Jenkins</mark> <mark>MkDocs</mark> <mark>Python</mark> <mark>PyTest</mark>  <mark>Docker</mark> <mark>Java</mark> <mark>GitOps</mark> <mark>Helm</mark> <mark>Raspberry Pi</mark> <mark>Automation</mark> <mark>Native Cloud Applications</mark> <mark>GitHub</mark> <mark>Git</mark> <mark>Bash</mark> <mark>Z Shell</mark> 
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in software engineering some of my other interests and hobbies are:
+   - Kick boxing
+   - Weightlifting
+   - Books
+   - Cinema
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
